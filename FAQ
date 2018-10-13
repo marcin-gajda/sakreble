@@ -1,0 +1,19 @@
+
+I. Compilation/installation problems.
+
+Q.I.0:
+I got during compilation:
+/usr/bin/ld: cannot find -lqt-mt
+collect2: ld returned 1 exit status
+
+A.I.0:
+The error indicates, that Qt library isn't installed in your system (or
+is istalled, but in strange path). You should find libqt-mt.so* file(s)
+in your system and then try to set correct path in Makefile file, for example:
+
+LFLAGS  = -lqt-mt -lxml2 -L/path/to/your/qt/lib/directory/
+
+Sakreble! is developed with PLD Linux Distribution
+(http://www.pld-linux.org/) and works fine with it. I plan to add
+configure script, but I have to learn about autoconf :(
+

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Sakreble-config>
+	<Alphabet number-of-blanks="2">
+		<Letter name="a" count="10" value="1" show="A" />
+		<Letter name="b" count="10" value="1" show="B" />
+		<Letter name="c" count="10" value="1" show="C" />
+		<Letter name="d" count="10" value="1" show="D" />
+		<Letter name="e" count="10" value="1" show="E" />
+		<Letter name="f" count="10" value="1" show="F" />
+		<Letter name="g" count="10" value="1" show="G" />
+		<Letter name="h" count="10" value="1" show="H" />
+		<Letter name="i" count="10" value="1" show="I" />
+		<Letter name="j" count="10" value="1" show="J" />
+		<Letter name="k" count="10" value="1" show="K" />
+		<Letter name="l" count="10" value="1" show="L" />
+		<Letter name="m" count="10" value="1" show="M" />
+		<Letter name="n" count="10" value="1" show="N" />
+		<Letter name="o" count="10" value="1" show="O" />
+		<Letter name="p" count="10" value="1" show="P" />
+		<Letter name="q" count="10" value="1" show="Q" />
+		<Letter name="r" count="10" value="1" show="R" />
+		<Letter name="s" count="10" value="1" show="S" />
+		<Letter name="t" count="10" value="1" show="T" />
+		<Letter name="u" count="10" value="1" show="U" />
+		<Letter name="v" count="10" value="1" show="V" />
+		<Letter name="w" count="10" value="1" show="W" />
+		<Letter name="x" count="10" value="1" show="X" />
+		<Letter name="y" count="10" value="1" show="Y" />
+		<Letter name="z" count="10" value="1" show="Z" />
+	</Alphabet>
+	<Gameboard>
+		<FieldRegion left="5" top="5" width="5" height="5" type="empty-field" />
+	</Gameboard>
+	<Rules>
+		<Rule name="start-field-required">
+			<RuleParameter name="start-field-x-position" value="7" />
+			<RuleParameter name="start-field-y-position" value="7" />
+			<RuleParameter name="start-field-flexible" value="yes" />
+		</Rule>
+		<Rule name="end-game-conditions">
+			<RuleParameter name="full-gameboard" value="yes" />
+			<RuleParameter name="continuous-pauses" value="4" />
+		</Rule>
+	</Rules>
+</Sakreble-config>

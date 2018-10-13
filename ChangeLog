@@ -1,0 +1,128 @@
+* 03.07.2004, version 0.78
+
+  End game conditions rule parsed from config file and aplied.
+
+
+* 22.06.2004, version 0.77
+
+  First move field rule parsed from config file and aplied.
+
+  Blanks handling fixed.
+
+  Dictionary file's format has small changes due to correct blanks
+  handling. Old dictionaries need recreate.
+
+  Windows with letters left and for blank change show correct letters in used
+  alphabet.
+
+
+* 30.05.2004, version 0.76
+
+  AUTHORS and FAQ files added.
+
+  Dictionary file has new format (binary) due to unicode support.
+
+  sakreble-dictionary.py utility creates dictionaries in the new format.
+
+  Unicode handling added.
+
+  Gameboard info is parsed from config file, so user can define his
+  own gameboard type.
+
+  New letter config attribute - letter string to show.
+  
+  Simple config file for 5x5 game included (polish version).
+
+  First game move can be performed for all fields (it will change, when
+  Rules info from config file will be parsed).
+
+
+* 20.05.2004, version 0.75
+
+  Path with players data file is now program option. --player-data-path
+  command line option sets it. ./dane_graczy is default.
+
+  --help and -h command line parameters shows usage text.
+
+  --config-file command line option sets path for file with config game data.
+
+  Simple config file for 5x5 game included (english version).
+
+  Option "I don't have polish letters" from Tools menu removed.
+
+  Letters info is parsed from config file, so user can define his
+  own letter sets.
+
+  libxml2 library is required.
+
+
+* 16.05.2004, version 0.74b
+
+  Sources translated into english (identifiers, file names, some comments).
+
+  Path with dictionary file is now program option. --dictionary-path
+  command line option sets it. ./slownik is default.
+
+
+* 11.05.2004, version 0.74a
+
+  Utility to create Sakreble! dictionaries. Python is required.
+
+  This changelog ;)
+
+
+* 10.05.2004
+
+  Back to developing after four years! Project is now hosted on
+  SourceForge.
+
+  Explicit license: GNU GPL v2.
+
+
+* 24.11.2000
+
+  Sources released (due to Graham Toal (www.gtoal.com) request).
+
+
+* 18.10.2000, version 0.73a
+
+  Player's game with himself isn't allowed.
+
+  Game ends after four pauses.
+
+
+* 16.10.2000, version 0.73
+
+  'Players...' option in 'Player' menu - shows window with info about
+  players (name, type, rank).
+
+  Rank couting.
+
+
+* 15.10.2000, version 0.72
+
+  New menu - options with option 'I don't have polish letters'. After
+  setting Sakreble! paints ogoneks itself.
+
+
+* 14.10.2000, version 0.70a
+
+  Bugfix with player data reading.
+
+
+* 13.10.2000, version 0.70
+
+  Rewrite for Qt 2.0. New features.
+
+
+* 04.10.2000, version 0.60
+
+  First public version on http://rainbow.mimuw.edu.pl/~gajus/
+  (only binaries).
+
+  Sakreble allows two players (alive or virtual) to play together.
+
+  Other features:
+  - players adding,
+  - free view into letter-sack.
+

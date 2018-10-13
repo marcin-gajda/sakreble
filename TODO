@@ -1,0 +1,18 @@
+TODO list:
+
+* configure script for autoconf/automake (zboczuch/)
+
+V first move for human player - button 'Ok' isn't enabled with correct move
+  (zboczuch/zboczuch)
+
+V letters left window - show correct letters according to reserved letter
+  numbers (0,1,2,10) (zboczuch/zboczuch)
+
+
+Legend:
+
+* - task is waiting for being performed (who added/)
+= - task is currently performed (who added/who perform)
+- - task will not be performed (who added/who decided)
+V - task performed (who added/who performed)
+
