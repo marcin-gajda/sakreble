@@ -206,4 +206,6 @@ Rule name: end-game-coditions
 
 III. Credits
 
-The algorithm for quickly finding all anagrams for a given shelf of letters has proudly been used by the https://szarada.net -- a portal for enthusiasts of solving crosswords.
+The algorithm for quickly finding all anagrams for a given shelf of letters has proudly been used by the following websites:
+* https://szarada.net -- a portal for enthusiasts of solving crosswords
+* https://wikicrosswords.org -- an online dictionary of clues and answers for crosswords in 30+ languages
